@@ -18,4 +18,8 @@ public class LibraryController {
     public String LibrarySearch(){
         return "welcome to the library search page";
     }
+    @PostMapping("/issue")
+    public String IssueBook(){
+        return "welcome to the issue book page";
+    }
 }
