@@ -14,4 +14,8 @@ public class LibraryController {
     public String LibraryAdd(){
         return "welcome to the library add page";
     }
+    @PostMapping("/search")
+    public String LibrarySearch(){
+        return "welcome to the library search page";
+    }
 }
