@@ -26,4 +26,8 @@ public class LibraryController {
     public String EditBook(){
         return "welcome to book edit page";
     }
+    @GetMapping("/view")
+    public String ViewBook(){
+        return "welcome to the view all book page";
+    }
 }
