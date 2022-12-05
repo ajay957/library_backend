@@ -22,4 +22,8 @@ public class LibraryController {
     public String IssueBook(){
         return "welcome to the issue book page";
     }
+    @PostMapping("/edit")
+    public String EditBook(){
+        return "welcome to book edit page";
+    }
 }
