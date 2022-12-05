@@ -30,4 +30,8 @@ public class LibraryController {
     public String ViewBook(){
         return "welcome to the view all book page";
     }
+    @PostMapping("/delete")
+    public String DeleteBook(){
+        return "welcome to the book delete page";
+    }
 }
